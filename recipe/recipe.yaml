@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "2.0.0"
+  version: "2.0.1"
 
 package:
   name: spscqueue
@@ -10,7 +10,7 @@ package:
 
 source:
   - url: https://github.com/rigtorp/SPSCQueue/archive/refs/tags/v${{ version }}.tar.gz
-    sha256: 8c18322aa68fa71fa4275fb76c51becf3fa9be763d3b6ada554e3116d4cef0a7
+    sha256: b2aa6bb53388f55778c704f80cb941e2208f447ad026601d189a8cb31acf5f45
 
 build:
   number: 0
